@@ -1,0 +1,10 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*/dsymutil filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.so filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/* filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/.Runtime/burst-llvm-16-arm64.dll filter=lfs diff=lfs merge=lfs -text
+TerrainGen/Library/PackageCache/com.unity.burst/.Runtime/burst-llvm-16.dll filter=lfs diff=lfs merge=lfs -text
